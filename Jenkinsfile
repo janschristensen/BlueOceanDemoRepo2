@@ -1,8 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'docker.bintray.io/jfrog/artifactory-oss'
-      args 'latest'
+      image 'ee2cb82d6a0f'
     }
     
   }
